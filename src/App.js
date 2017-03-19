@@ -3,11 +3,6 @@ import logo from './logo.svg';
 import './App.css';
 
 class App extends Component {
-  constructor(props) {
-    console.log('Running App constructor!');
-    super();
-    this.props = props;
-  }
   render() {
     console.log('Running render! Properties:', this.props);
     if (!this.props.loading) {
